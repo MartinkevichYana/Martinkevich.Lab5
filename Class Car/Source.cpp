@@ -23,7 +23,6 @@ int main()
 	cin >> n;
 	system("cls");
 	Car* Cars = InitArray(n);
-	//key.DisplayKey();
 	if (!Cars)
 	{
 		cout << "\nDynamic array doesn't exist!\n";
